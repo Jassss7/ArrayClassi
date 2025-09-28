@@ -59,7 +59,7 @@ class Program
         }
         for(int i = 0; i < quadrati.Length; i++)
         {
-            Console.WriteLine($"l'area del lato{i} è : {quadrati[i].area()} ");        
+            Console.WriteLine($"l'area del quadrato{i} è : {quadrati[i].area()} ");        
     
   }
         Quadrato max = Quadrato.Grande(quadrati);
